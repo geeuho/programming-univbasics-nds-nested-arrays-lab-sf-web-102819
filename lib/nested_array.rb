@@ -23,11 +23,12 @@ end
 def array_literal_matrix
   array1 = ENNET_HOUSE.sort
   array2 = ENFIELD_TENNIS_ACADEMY.sort
-  assembled_matrix = [array1, array2]
+  sorted_matrix = [array1, array2]
 end
 
 def matrix_lookup(matrix, row, column)
-  # Return the matrix's content at row and column
+  assembled_matrix = [ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
+  a
 end
 
 def matrix_update(matrix, row, column, new_value)
