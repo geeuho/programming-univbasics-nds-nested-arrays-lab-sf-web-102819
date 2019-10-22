@@ -27,8 +27,7 @@ def array_literal_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  assembled_matrix = [ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
-  a
+  array[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
